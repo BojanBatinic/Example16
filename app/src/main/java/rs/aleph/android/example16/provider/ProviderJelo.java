@@ -45,9 +45,9 @@ public class ProviderJelo {
             case 0:
                 return new Jelo(0, "sopska.jpg", "Sopska salata 400g", "Osvezavajuca salata od svezeg povrca i sira", "Paradajiz, krastavac, paprika i tvrdi sir.", 190.00, 300.00, mrsnoJelo );
             case 1:
-                return new Jelo(1, "cezar.jpg", "Cezar salata 400g", "Obrok salata od svezeg povrca i mesa", "Paradajiz, krastavac, paprika i tvrdi sir.", 210.00, 350.00, mrsnoJelo);
+                return new Jelo(1, "cezar.jpg", "Cezar salata 400g", "Obrok salata od svezeg povrca i mesa", "Paradajiz, krastavac, pilece meso, dresing i hleb u kockicama.", 210.00, 350.00, mrsnoJelo);
             case 2:
-                return new Jelo(2, "tuna.jpg", "Tuna salata 400g", "Obrok salata od svezeg povrca i tunjevine", "Paradajiz, krastavac, paprika i tvrdi sir.", 230.00, 320.00, posnoJelo);
+                return new Jelo(2, "tuna.jpg", "Tuna salata 400g", "Obrok salata od svezeg povrca i tunjevine", "Paradajiz, krastavac, paprika i tunjevina u komadicima.", 230.00, 320.00, posnoJelo);
             case 3:
                 return new Jelo(3, "vegeterijana.jpg", "Vegeterijanska salata 400g", "Osvezavajuca salata od svezeg povrca", "Paradajiz, krastavac, paprika, tikvice i patlidzan.", 170.00, 280.00, posnoJelo);
             default:
