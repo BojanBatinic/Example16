@@ -81,7 +81,7 @@ public class SecondActivity extends Activity {
         btnBuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toast = Toast.makeText(v.getContext(), "You've bought " + ProviderJelo.getJeloById(position).getNaziv() + "!", Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(v.getContext(), "Narucili ste " + ProviderJelo.getJeloById(position).getNaziv() + "!", Toast.LENGTH_LONG);
                 toast.show();
             }
         });
